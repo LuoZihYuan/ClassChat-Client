@@ -1,6 +1,5 @@
-import { ChatInput } from "./components/ChatInput";
 import { ChatRoomProvider } from "./contexts/ChatRoomProvider";
-import { ChatHistory } from "./components/ChatHistory";
+import { ChatInput, ChatHistory } from "./components";
 
 export const App = () => {
   return (
