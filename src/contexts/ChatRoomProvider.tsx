@@ -49,6 +49,10 @@ export const ChatRoomProvider = ({
     };
   }, []);
 
+  useEffect(() => {
+    document.title = `ClassChat - ${user?.username}`;
+  }, [user]);
+
   const sendTextMessage = useCallback(
     async (text: string) => {
       if (socketRef.current && user) {
