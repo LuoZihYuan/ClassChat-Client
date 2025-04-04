@@ -16,6 +16,10 @@ ClassChat is a real-time web-based chatroom designed to facilitate communication
 4. Run `git lfs pull` to pull all contents from remote.
 5. Build with `pnpm install;pnpm run build;`.
 
+## Introduction Video
+
+[![intro ClassChat](https://img.youtube.com/vi/PtBDI--0uHo/maxresdefault.jpg)](https://www.youtube.com/watch?v=PtBDI--0uHo)
+
 ## Screenshots
 
 - ChatRoom
